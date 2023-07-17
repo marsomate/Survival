@@ -1,0 +1,160 @@
+1. What do you do when you wake up and realize that the plane has crashed, and you are the only survivor?
+   a) Try to search through the wreckage for any useful items.
+   b) Immediately look for a high point to get a better view of the surroundings.
+   c) Gather your thoughts and assess your injuries.
+   Consequences:
+   a) +10 You find a first aid kit and some survival supplies.
+   b) -05 You get a better view of the surroundings but don't find anything useful.
+   c) +05 You realize you have minor injuries and can move freely.
+2. As you explore the island, you stumble upon a mysterious cave. What do you decide to do?
+   a) Enter the cave cautiously to investigate its secrets.
+   b) Choose to avoid the cave and continue exploring the rest of the island.
+   c) Stay outside the cave and observe it from a safe distance.
+   Consequences:
+   a) +15 Inside the cave, you discover a hidden stash of food and water.
+   b) -10 By avoiding the cave, you miss out on a valuable resource.
+   c) +05 You notice unusual sounds coming from the cave, but you stay safe.
+3. While searching for food, you encounter a group of wild animals blocking your path. How do you handle this situation?
+   a) Attempt to scare them away by making loud noises.
+   b) Slowly backtrack and find an alternative route to avoid the animals.
+   c) Gather rocks and sticks to defend yourself if the animals become aggressive.
+   Consequences:
+   a) -05 The animals become more aggressive, and you have to find another path.
+   b) +10 You find a safer route but lose some time and energy.
+   c) +05 The animals back off as you show your determination to defend yourself.
+4. You stumble upon a hidden message carved into a tree trunk. What do you make of it?
+   a) Take note of the message and try to decipher its meaning.
+   b) Ignore the message and continue exploring the surroundings.
+   c) Use the message as a clue to uncover a potential hidden treasure.
+   Consequences:
+   a) +10 You decipher the message, leading you to a hidden freshwater spring.
+   b) +00 You miss out on a potential clue but continue exploring.
+   c) +15 You find a hidden stash of valuable items based on the message.
+5. While exploring the shoreline, you spot a wrecked ship offshore. What is your next course of action?
+   a) Attempt to swim out to the ship and search for supplies.
+   b) Signal for help using any available means, hoping someone will notice.
+   c) Stay on the shoreline and observe the ship from a safe distance.
+   Consequences:
+   a) -10 Swimming to the ship proves dangerous, and you exhaust yourself without finding supplies.
+   b) +15 Your signals are noticed by a passing boat, and you are rescued.
+   c) +05 You spot some useful debris washed ashore from the wrecked ship.
+6. As night falls, you realize you need to find shelter. What do you do?
+   a) Look for natural formations like caves or overhangs for temporary shelter.
+   b) Construct a makeshift shelter using branches, leaves, and other available materials.
+   c) Decide to sleep under the open sky, keeping watch for any potential dangers.
+   Consequences:
+   a) +05 You find a small cave that provides adequate shelter for the night.
+   b) +10 Your makeshift shelter proves sturdy and protects you from the elements.
+   c) -15 Sleeping under the open sky makes you vulnerable to nocturnal predators.
+7. While exploring the dense jungle, you come across a river with strong currents. How do you navigate it?
+   a) Attempt to swim across, using your strength to fight against the current.
+   b) Look for a suitable place to build a raft and use it to cross the river.
+   c) Follow the riverbank and search for a safer crossing point.
+   Consequences:
+   a) -20 The strong currents overpower you, and you are swept away.
+   b) +15 You successfully construct a raft and navigate across the river.
+   c) +05 You find a safer crossing point downstream and make it across without issues.
+8. You discover a hidden underground bunker. What do you do?
+   a) Enter the bunker to investigate its contents and potential use.
+   b) Choose to leave the bunker undisturbed and continue exploring the island.
+   c) Proceed cautiously, keeping an eye out for any potential dangers or traps.
+   Consequences:
+   a) +20 Inside the bunker, you find a fully stocked supply of food, water, and survival gear.
+   b) +00 You decide not to risk entering the bunker and continue exploring.
+   c) +05 You carefully explore the surroundings, but find no immediate threats or benefits.
+9. While foraging for food, you encounter a poisonous plant. How do you identify if it's safe to eat?
+   a) Research edible plants and use your knowledge to identify potential dangers.
+   b) Look for animals or insects consuming the plant as an indicator of safety.
+   c) Use a basic taste test method, sampling a small portion and waiting for a reaction.
+   Consequences:
+   a) +10 Your research pays off, and you correctly identify the plant as poisonous.
+   b) +05 Seeing animals avoid the plant, you decide not to take the risk.
+   c) -10 The taste test method backfires, and you suffer from a mild poisoning.
+10. You come across footprints on the beach. What do you make of them?
+    a) Follow the footprints to see if they lead to any signs of civilization.
+    b) Ignore the footprints and focus on other aspects of survival and exploration.
+    c) Use the footprints as a guide to explore a new area of the island.
+    Consequences:
+    a) +15 You follow the footprints and discover a small fishing village with friendly locals.
+    b) +00 You continue your exploration but miss out on a potential encounter.
+    c) +05 The footprints lead you to a hidden waterfall, providing a beautiful and serene spot.
+11. You stumble upon an old, abandoned campsite. What do you decide to do?
+    a) Search the campsite for any remaining supplies or useful items.
+    b) Leave the campsite undisturbed and continue your exploration.
+    c) Set up your own camp nearby, utilizing the existing fire pit and shelter.
+    Consequences:
+    a) +10 You find a backpack with essential survival gear and a map of the island.
+    b) +00 You decide not to disturb the campsite and move on.
+    c) +05 The existing campsite provides some comfort and familiarity during your stay.
+12. While exploring a dense forest, you encounter a group of hostile natives. How do you react?
+    a) Attempt to communicate with them using gestures and non-threatening behavior.
+    b) Retreat quietly and find an alternative route to avoid confrontation.
+    c) Stand your ground and show confidence to deter any potential aggression.
+    Consequences:
+    a) +05 Your attempts at communication lead to a peaceful resolution and mutual understanding.
+    b) +10 You manage to find a detour and avoid a potentially dangerous encounter.
+    c) -15 The natives perceive your confidence as a threat, and you are forced to flee.
+13. A severe storm is approaching. How do you prepare for it?
+    a) Find a sturdy tree and take cover under its branches.
+    b) Build a makeshift shelter using available materials for protection.
+    c) Seek out a natural cave or overhang that offers secure shelter.
+    Consequences:
+    a) -10 Taking cover under a tree puts you at risk of lightning strikes.
+    b) +10 Your makeshift shelter withstands the storm and keeps you safe.
+    c) +15 The natural cave provides excellent protection from the elements.
+14. You discover an old, rusted radio in the remains of a shipwreck. What do you do with it?
+    a) Attempt to repair the radio and use it to send a distress signal.
+    b) Salvage any useful parts from the radio for future purposes.
+    c) Leave the radio as it is and continue your journey.
+    Consequences:
+    a) +20 After some effort, you manage to repair the radio and send a distress signal, hoping for rescue.
+    b) +05 The salvaged parts prove useful for other makeshift devices you may need later.
+    c) +00 You decide not to waste time on the non-functional radio and move on.
+15. While exploring a dense jungle, you stumble upon an ancient temple. What do you decide to do?
+    a) Enter the temple to uncover its secrets and potential resources.
+    b) Choose to observe the temple from a distance, respecting its historical significance.
+    c) Approach the temple cautiously, looking for any signs of danger.
+    Consequences:
+    a) +15 Inside the temple, you discover valuable artifacts and hidden chambers with useful supplies.
+    b) +05 By maintaining your distance, you appreciate the temple's beauty without disturbing its integrity.
+    c) -10 As you approach the temple, you trigger a trap and have to retreat hastily.
+16. You encounter a fellow survivor on the island. How do you interact with them?
+    a) Approach them cautiously and offer help and support.
+    b) Keep your distance and observe their actions from a safe vantage point.
+    c) Ignore their presence and continue your journey alone.
+    Consequences:
+    a) +20 The survivor becomes your ally, and together you increase your chances of survival.
+    b) +05 You learn from their experiences and adapt your own strategies accordingly.
+    c) +00 Ignoring the survivor leaves you independent but without potential benefits.
+17. You discover a hidden waterfall deep within the jungle. What do you decide to do?
+    a) Take the opportunity to refresh yourself and fill your water containers.
+    b) Use the waterfall as a landmark to mark your current location on the island.
+    c) Explore the area around the waterfall for potential food sources.
+    Consequences:
+    a) +10 The waterfall provides a clean water source, quenching your thirst and replenishing your supplies.
+    b) +05 Marking the waterfall as a landmark helps you navigate the island more effectively.
+    c) +05 You find a variety of edible plants and small animals thriving near the waterfall.
+18. While exploring a rocky cliffside, you notice a cave entrance high above. How do you approach it?
+    a) Climb the cliffside to reach the cave entrance and explore its depths.
+    b) Choose to find an alternate path to avoid the risks associated with climbing.
+    c) Throw rocks or call out to see if any signs of life emerge from the cave.
+    Consequences:
+    a) +15 You successfully climb to the cave entrance and find a hidden cache of tools and provisions.
+    b) +05 Finding an alternate path keeps you safe, but you miss out on potential discoveries within the cave.
+    c) +10 Your actions draw the attention of a friendly island inhabitant who guides you to safety.
+19. You come across a small, abandoned fishing boat on the shore. What do you decide to do with it?
+    a) Attempt to repair the boat and use it to explore the surrounding waters.
+    b) Salvage any usable parts from the boat for future purposes.
+    c) Leave the boat as it is and continue your journey on foot.
+    Consequences:
+    a) +20 After spending time repairing the boat, you successfully set sail and expand your exploration options.
+    b) +10 The salvaged parts prove valuable for creating new tools and equipment.
+    c) +00 You decide not to invest time and effort in the non-functional boat and choose to continue on foot.
+20. After weeks of survival and exploration, you finally spot a rescue helicopter in the distance. What do you do?
+    a) Light a signal fire and create a visible SOS sign to attract the helicopter's attention.
+    b) Gather any remaining supplies and belongings before heading towards the helicopter's location.
+    c) Signal for help using any available means and wait for the helicopter to approach your location.
+    Consequences:
+    a) +20 Your signal fire and SOS sign catch the helicopter's attention, and you are rescued.
+    b) +10 Gathering your supplies ensures you have essential items for your rescue and journey back home.
+    c) +15 The helicopter responds to your signals and lands nearby, successfully rescuing you.
