@@ -4,6 +4,7 @@ import os
 
 class Caracter:
     """This class simulate our player with all his attributes (Health)"""
+
     def __init__(self) -> None:
         self.health = 10
 
@@ -17,11 +18,14 @@ class Caracter:
 
 class Location:
     """This class represents the location/enviroment of the game"""
-    def __init__(self) -> None: # This constructor load all the tasks and qouestions
-        file = open("C:/Users/MMarso/Documents/GitHub/Survival/tasks.txt", "r")
+
+    def __init__(self) -> None:  # This constructor load all the tasks and qouestions
+        # pylint: disable=W1514
+        file = open("tasks.txt", "r")
         self.tasks = file.read()
-        self.tasks = self.tasks.split('\n') #  This function splits the string to a list (Enter)
-        self.choice = 0 # We need this variable for the consequences function
+        # This function splits the string to a list (Enter)
+        self.tasks = self.tasks.split('\n')
+        self.choice = 0  # We need this variable for the consequences function
 
     def task_printer(self):
         """This function prints the task for the user and get's the choice and returns the score"""
@@ -83,9 +87,9 @@ def outro(caracter_outro):
     print("Your survival rate is ", caracter_outro.health, "%")
 
 
-try: #This section is the main program
+try:  # This section is the main program
     os.system('cls')
-    caracter = Caracter() # Creating instances of the classes
+    caracter = Caracter()  # Creating instances of the classes
     location = Location()
     GOOD = True
     i = 0
@@ -95,8 +99,9 @@ try: #This section is the main program
             os.system('cls')
             print_logo()
             print("Survive percentage: ", caracter.health, "%")
-            caracter.choice(location.task_printer()) # Question > answers > userInput > calculateTheHealt
-            location.consequences() # Printing the consequencies
+            # Question > answers > userInput > calculateTheHealt
+            caracter.choice(location.task_printer())
+            location.consequences()  # Printing the consequencies
             i += 1
             if caracter.health <= 0:
                 GOOD = False
@@ -107,7 +112,7 @@ try: #This section is the main program
     if i >= 10:
         outro(caracter)
 
-except KeyboardInterrupt: # Exception handling
+except KeyboardInterrupt:  # Exception handling
     print("Exiting...")
 
 # Make sure to the program can handle dinamic pieces of answer
