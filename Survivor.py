@@ -1,38 +1,40 @@
+"""With this import we can clear the console"""
 import os
 
 
-class Caracter:
+class Caracter: # This class simulate our player with all his attributes (Health)
     def __init__(self) -> None:
         self.health = 10
 
-    def choice(self, result):
+    def choice(self, result): # This function gets the users choice and calculates its health
         if ((self.health + result) < 100):
             self.health += result
         elif ((self.health + result) >= 100):
             self.health = 100
 
 
-class Location:
-    def __init__(self) -> None:
-        f = open("tasks.txt", "r")
+class Location: # This class represents the location/enviroment of the game
+    def __init__(self) -> None: # This constructor load all the tasks and qouestions
+        f = open("C:/Users/MMarso/Documents/GitHub/Survival/tasks.txt", "r")
         self.tasks = f.read()
-        self.tasks = self.tasks.split('\n')
-        self.choice = 0
+        self.tasks = self.tasks.split('\n') #  This function splits the string to a list (Enter)
+        self.choice = 0 # We need this variable for the consequences function (This could be optimized more...)
 
-    def task_printer(self):
+    def task_printer(self): # This function prints the task for the user and get's the choice and returns the score
         print(self.tasks[0], "\n",
               self.tasks[1], "\n", self.tasks[2], "\n", self.tasks[3])
         del self.tasks[0:5]
         self.choice = checked_input()
         return (int(self.tasks[self.choice][6:9]))
 
-    def consequences(self):
+    def consequences(self): # This function prints the consequences
         print(self.tasks[self.choice][10:])
         del self.tasks[0:3]
         input("If You are ready for the next task please hit any key")
 
 
 def print_logo():
+    """This is the logo of the game"""
     print(""" _     _                 _ 
 (_)   | |               | |
  _ ___| | __ _ _ __   __| |
@@ -43,12 +45,14 @@ def print_logo():
 
 
 def intro():
+    """Intro"""
     print_logo()
     print("In this role-playing game, you find yourself on an exciting adventure.One day, you are traveling on a plane when suddenly, a massive storm breaks out. The plane crashes, and miraculously, you survive, ending up on a deserted island. Your goal now is to survive, explore the island, and find a way to get back to civilization.")
     input("If you are ready press any key")
 
 
 def checked_input():
+    """This function gets a checked input from the console"""
     while True:
         choice = input()
         if choice == "a" or choice == "1":
@@ -62,7 +66,11 @@ def checked_input():
 
 
 def outro(caracter):
-    print("Ending: You are successfully rescued and returned to civilization. Despite the challenges and hardships you faced, your survival skills and resourcefulness allowed you to make it through. The experience has left you with a newfound appreciation for the simple things in life and a resilient spirit that will stay with you forever. You reflect on your time on the island as a transformative journey that tested your limits and taught you the importance of adaptability and perseverance.")
+    """Outro"""
+    print("Ending: You are successfully rescued and returned to civilization.")
+    print("Despite the challenges and hardships you faced, your survival skills and resourcefulness allowed you to make it through.")
+    print("The experience has left you with a newfound appreciation for the simple things in life and a resilient spirit that will stay with you forever.")
+    print("You reflect on your time on the island as a transformative journey that tested your limits and taught you the importance of adaptability and perseverance.")
     print("Your survival rate is ", caracter.health, "%")
 
 
@@ -72,6 +80,7 @@ try:
     location = Location()
     good = True
     i = 0
+    intro()
     while good and location.tasks:
         try:
             os.system('cls')
